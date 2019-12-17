@@ -1,0 +1,8 @@
+#!/bin/bash
+
+DROPLET_NAME=$1
+for (( i=1; i <= $2; i++ ))
+do
+  echo resource \"digitalocean_droplet\" \"${DROPLET_NAME}${i}\" { > droplet_${DROPLET_NAME}${i}.tf
+  cat droplet.template >> droplet_${DROPLET_NAME}${i}.tf
+done
