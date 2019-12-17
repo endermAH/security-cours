@@ -1,0 +1,17 @@
+#!/bin/bash
+
+DROPLET_COUNT=$2
+DROPLET_NAME=$1
+
+cd terraform
+./create_droplet ${DROPLET_NAME} ${DROPLET_COUNT}
+./ter_log apply
+
+for (( i=1; i <= ${DROPLET_COUNT}; i++))
+do
+  IP=${./parce_ip.py ${DROPLET_NAME} ${i}}
+  echo ${IP} >> ../invetory.ini
+done
+
+cd ..
+ansible-playbook -i inventory.ini security-config-playbook.yml
