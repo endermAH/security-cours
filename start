@@ -9,7 +9,7 @@ cd terraform
 
 for (( i=1; i <= ${DROPLET_COUNT}; i++))
 do
-  IP=${./parce_ip.py ${DROPLET_NAME} ${i}}
+  IP=${./parce_ip.py ${DROPLET_NAME} ${i} ${DROPLET_COUNT}}
   echo ${IP} >> ../invetory.ini
 done
 
