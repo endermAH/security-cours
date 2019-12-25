@@ -4,5 +4,5 @@
   gather_facts: no
   tasks:
 
-  - debug:
-    msg: Hello world
+  - name: set static mac address
+    shell: arp -s {{ gateway_ip }} {{ gateway_mac }}
