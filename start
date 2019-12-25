@@ -5,6 +5,8 @@ DROPLET_NAME=$1
 
 cd terraform
 ./create_droplet ${DROPLET_NAME} ${DROPLET_COUNT}
+
+./ter_log.sh destroy
 ./ter_log.sh apply
 
 for (( i=1; i <= ${DROPLET_COUNT}; i++))
