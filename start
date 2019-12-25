@@ -13,9 +13,8 @@ find . -maxdepth 1 ! -name "create_droplet" ! -name "ter_log.sh" ! -name ".terra
 
 for (( i=1; i <= ${DROPLET_COUNT}; i++))
 do
-  IP=''
   ./parse_ip.py test${i} ${DROPLET_COUNT} > ip.tmp
-  cat ip.tmp >> ../invetory.ini
+  cat ip.tmp >> ../inventory.ini
 done
 
 cd ..
