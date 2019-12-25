@@ -15,7 +15,7 @@ for (( i=1; i <= ${DROPLET_COUNT}; i++))
 do
   IP=''
   ./parse_ip.py test${i} ${DROPLET_COUNT} > ip.tmp
-  cat ip.mtp >> ../invetory.ini
+  cat ip.tmp >> ../invetory.ini
 done
 
 cd ..
