@@ -1,0 +1,918 @@
+[0m[1mdigitalocean_droplet.test1: Refreshing state... [id=172963114][0m
+[0m[1mdigitalocean_droplet.test1: Destroying... [id=172963114][0m[0m
+[0m[1mdigitalocean_droplet.test1: Still destroying... [id=172963114, 10s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test1: Still destroying... [id=172963114, 20s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test1: Destruction complete after 21s[0m[0m
+[0m[1m[32m
+Destroy complete! Resources: 1 destroyed.[0m
+[0m[1mdigitalocean_droplet.test1: Creating...[0m[0m
+[0m[1mdigitalocean_droplet.test4: Creating...[0m[0m
+[0m[1mdigitalocean_droplet.test3: Creating...[0m[0m
+[0m[1mdigitalocean_droplet.test2: Creating...[0m[0m
+[0m[1mdigitalocean_droplet.test5: Creating...[0m[0m
+[0m[1mdigitalocean_droplet.test1: Still creating... [10s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test4: Still creating... [10s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test3: Still creating... [10s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test2: Still creating... [10s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test5: Still creating... [10s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test1: Still creating... [20s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test4: Still creating... [20s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test3: Still creating... [20s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test2: Still creating... [20s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test5: Still creating... [20s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test1: Still creating... [30s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test3: Still creating... [30s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test4: Still creating... [30s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test2: Still creating... [30s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test5: Still creating... [30s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test1: Provisioning with 'remote-exec'...[0m[0m
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test1 (remote-exec):   Host: 157.245.79.65
+digitalocean_droplet.test1 (remote-exec):   User: root
+digitalocean_droplet.test1 (remote-exec):   Password: false
+digitalocean_droplet.test1 (remote-exec):   Private key: true
+digitalocean_droplet.test1 (remote-exec):   Certificate: false
+digitalocean_droplet.test1 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test1 (remote-exec):   Checking Host Key: false
+[0m[1mdigitalocean_droplet.test4: Provisioning with 'remote-exec'...[0m[0m
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test4 (remote-exec):   Host: 178.62.227.14
+digitalocean_droplet.test4 (remote-exec):   User: root
+digitalocean_droplet.test4 (remote-exec):   Password: false
+digitalocean_droplet.test4 (remote-exec):   Private key: true
+digitalocean_droplet.test4 (remote-exec):   Certificate: false
+digitalocean_droplet.test4 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test4 (remote-exec):   Checking Host Key: false
+[0m[1mdigitalocean_droplet.test1: Still creating... [40s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test4: Still creating... [40s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test3: Still creating... [40s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test2: Still creating... [40s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test5: Still creating... [40s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test3: Provisioning with 'remote-exec'...[0m[0m
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test3 (remote-exec):   Host: 167.172.37.19
+digitalocean_droplet.test3 (remote-exec):   User: root
+digitalocean_droplet.test3 (remote-exec):   Password: false
+digitalocean_droplet.test3 (remote-exec):   Private key: true
+digitalocean_droplet.test3 (remote-exec):   Certificate: false
+digitalocean_droplet.test3 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test3 (remote-exec):   Checking Host Key: false
+[0m[1mdigitalocean_droplet.test2: Provisioning with 'remote-exec'...[0m[0m
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test2 (remote-exec):   Host: 157.245.72.230
+digitalocean_droplet.test2 (remote-exec):   User: root
+digitalocean_droplet.test2 (remote-exec):   Password: false
+digitalocean_droplet.test2 (remote-exec):   Private key: true
+digitalocean_droplet.test2 (remote-exec):   Certificate: false
+digitalocean_droplet.test2 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test2 (remote-exec):   Checking Host Key: false
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test1 (remote-exec):   Host: 157.245.79.65
+digitalocean_droplet.test1 (remote-exec):   User: root
+digitalocean_droplet.test1 (remote-exec):   Password: false
+digitalocean_droplet.test1 (remote-exec):   Private key: true
+digitalocean_droplet.test1 (remote-exec):   Certificate: false
+digitalocean_droplet.test1 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test1 (remote-exec):   Checking Host Key: false
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test4 (remote-exec):   Host: 178.62.227.14
+digitalocean_droplet.test4 (remote-exec):   User: root
+digitalocean_droplet.test4 (remote-exec):   Password: false
+digitalocean_droplet.test4 (remote-exec):   Private key: true
+digitalocean_droplet.test4 (remote-exec):   Certificate: false
+digitalocean_droplet.test4 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test4 (remote-exec):   Checking Host Key: false
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Connected!
+[0m[1mdigitalocean_droplet.test1: Still creating... [50s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test3: Still creating... [50s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test4: Still creating... [50s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test2: Still creating... [50s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test5: Still creating... [50s elapsed][0m[0m
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test1 (remote-exec):   Host: 157.245.79.65
+digitalocean_droplet.test1 (remote-exec):   User: root
+digitalocean_droplet.test1 (remote-exec):   Password: false
+digitalocean_droplet.test1 (remote-exec):   Private key: true
+digitalocean_droplet.test1 (remote-exec):   Certificate: false
+digitalocean_droplet.test1 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test1 (remote-exec):   Checking Host Key: false
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Reading package lists... 0%
+digitalocean_droplet.test4 (remote-exec): Reading package lists... 100%
+digitalocean_droplet.test4 (remote-exec): Reading package lists... Done
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Building dependency tree... 0%
+digitalocean_droplet.test4 (remote-exec): Building dependency tree... 0%
+digitalocean_droplet.test4 (remote-exec): Building dependency tree... 50%
+digitalocean_droplet.test4 (remote-exec): Building dependency tree... 50%
+digitalocean_droplet.test4 (remote-exec): Building dependency tree
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Reading state information... 0%
+digitalocean_droplet.test4 (remote-exec): Reading state information... 0%
+digitalocean_droplet.test4 (remote-exec): Reading state information... Done
+[0m[0mdigitalocean_droplet.test4 (remote-exec): The following package was automatically installed and is no longer required:
+[0m[0mdigitalocean_droplet.test4 (remote-exec):   grub-pc-bin
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Use 'apt autoremove' to remove it.
+[0m[0mdigitalocean_droplet.test4 (remote-exec): The following additional packages will be installed:
+[0m[0mdigitalocean_droplet.test4 (remote-exec):   libpython-stdlib
+[0m[0mdigitalocean_droplet.test4 (remote-exec):   libpython2.7-minimal
+[0m[0mdigitalocean_droplet.test4 (remote-exec):   libpython2.7-stdlib python-minimal
+[0m[0mdigitalocean_droplet.test4 (remote-exec):   python2.7 python2.7-minimal
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Suggested packages:
+[0m[0mdigitalocean_droplet.test4 (remote-exec):   python-doc python-tk python2.7-doc
+[0m[0mdigitalocean_droplet.test4 (remote-exec):   binutils binfmt-support
+[0m[0mdigitalocean_droplet.test4 (remote-exec): The following NEW packages will be installed:
+[0m[0mdigitalocean_droplet.test4 (remote-exec):   libpython-stdlib
+[0m[0mdigitalocean_droplet.test4 (remote-exec):   libpython2.7-minimal
+[0m[0mdigitalocean_droplet.test4 (remote-exec):   libpython2.7-stdlib python
+[0m[0mdigitalocean_droplet.test4 (remote-exec):   python-minimal python2.7
+[0m[0mdigitalocean_droplet.test4 (remote-exec):   python2.7-minimal
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 0 upgraded, 7 newly installed, 0 to remove and 0 not upgraded.
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Need to get 3962 kB of archives.
+[0m[0mdigitalocean_droplet.test4 (remote-exec): After this operation, 16.8 MB of additional disk space will be used.
+[0m[0mdigitalocean_droplet.test4 (remote-exec): [33m
+digitalocean_droplet.test4 (remote-exec): 0% [Working][0m
+digitalocean_droplet.test4 (remote-exec): Get:1 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libpython2.7-minimal amd64 2.7.15-4ubuntu4~18.04.2 [336 kB]
+[0m[0mdigitalocean_droplet.test4 (remote-exec): [33m
+digitalocean_droplet.test4 (remote-exec): 1% [1 libpython2.7-minimal 65.1 kB/336 [0m[33m
+digitalocean_droplet.test4 (remote-exec): 10% [Working][0m
+digitalocean_droplet.test4 (remote-exec): Get:2 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 python2.7-minimal amd64 2.7.15-4ubuntu4~18.04.2 [1296 kB]
+[0m[0mdigitalocean_droplet.test4 (remote-exec): [33m
+digitalocean_droplet.test4 (remote-exec): 12% [2 python2.7-minimal 122 kB/1296 kB[0m[33m
+digitalocean_droplet.test4 (remote-exec): 39% [Working][0m
+digitalocean_droplet.test4 (remote-exec): Get:3 http://mirrors.digitalocean.com/ubuntu bionic/main amd64 python-minimal amd64 2.7.15~rc1-1 [28.1 kB]
+[0m[0mdigitalocean_droplet.test4 (remote-exec): [33m
+digitalocean_droplet.test4 (remote-exec): 39% [3 python-minimal 0 B/28.1 kB 0%][0m[33m
+digitalocean_droplet.test4 (remote-exec): 42% [Working][0m
+digitalocean_droplet.test4 (remote-exec): Get:4 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libpython2.7-stdlib amd64 2.7.15-4ubuntu4~18.04.2 [1916 kB]
+[0m[0mdigitalocean_droplet.test4 (remote-exec): [33m
+digitalocean_droplet.test4 (remote-exec): 46% [4 libpython2.7-stdlib 197 kB/1916 [0m[33m
+digitalocean_droplet.test4 (remote-exec): 84% [Working][0m
+digitalocean_droplet.test4 (remote-exec): Get:5 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 python2.7 amd64 2.7.15-4ubuntu4~18.04.2 [239 kB]
+[0m[0mdigitalocean_droplet.test4 (remote-exec): [33m
+digitalocean_droplet.test4 (remote-exec): 84% [5 python2.7 0 B/239 kB 0%][0m[33m
+digitalocean_droplet.test4 (remote-exec): 91% [Working][0m
+digitalocean_droplet.test4 (remote-exec): Get:6 http://mirrors.digitalocean.com/ubuntu bionic/main amd64 libpython-stdlib amd64 2.7.15~rc1-1 [7620 B]
+[0m[0mdigitalocean_droplet.test4 (remote-exec): [33m
+digitalocean_droplet.test4 (remote-exec): 91% [6 libpython-stdlib 0 B/7620 B 0%][0m[33m
+digitalocean_droplet.test4 (remote-exec): 94% [Working][0m
+digitalocean_droplet.test4 (remote-exec): Get:7 http://mirrors.digitalocean.com/ubuntu bionic/main amd64 python amd64 2.7.15~rc1-1 [140 kB]
+[0m[0mdigitalocean_droplet.test4 (remote-exec): [33m
+digitalocean_droplet.test4 (remote-exec): 94% [7 python 0 B/140 kB 0%][0m[33m
+digitalocean_droplet.test4 (remote-exec): 100% [Working][0m
+digitalocean_droplet.test4 (remote-exec): Fetched 3962 kB in 0s (23.2 MB/s)
+[0m[0m
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[0;79r8[1ASelecting previously unselected package libpython2.7-minimal:amd64.
+[0m[0mdigitalocean_droplet.test4 (remote-exec): (Reading database ...
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 5%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 10%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 15%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 20%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 25%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 30%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 35%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 40%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 45%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 50%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 55%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 60%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 65%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 70%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 75%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 80%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 85%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 90%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 95%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 100%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 60017 files and directories currently installed.)
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Preparing to unpack .../0-libpython2.7-minimal_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [  0%][49m[39m [..................] 87[80;0f[42m[30mProgress: [  3%][49m[39m [..................] 8Unpacking libpython2.7-minimal:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [  6%][49m[39m [..................] 87[80;0f[42m[30mProgress: [  8%][49m[39m [#.................] 8Selecting previously unselected package python2.7-minimal.
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Preparing to unpack .../1-python2.7-minimal_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 11%][49m[39m [#.................] 8Unpacking python2.7-minimal (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 14%][49m[39m [##................] 87[80;0f[42m[30mProgress: [ 17%][49m[39m [##................] 8Selecting previously unselected package python-minimal.
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Preparing to unpack .../2-python-minimal_2.7.15~rc1-1_amd64.deb ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 19%][49m[39m [###...............] 8Unpacking python-minimal (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 22%][49m[39m [###...............] 87[80;0f[42m[30mProgress: [ 25%][49m[39m [####..............] 8Selecting previously unselected package libpython2.7-stdlib:amd64.
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Preparing to unpack .../3-libpython2.7-stdlib_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 28%][49m[39m [#####.............] 8Unpacking libpython2.7-stdlib:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[1mdigitalocean_droplet.test5: Provisioning with 'remote-exec'...[0m[0m
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test5 (remote-exec):   Host: 104.248.81.246
+digitalocean_droplet.test5 (remote-exec):   User: root
+digitalocean_droplet.test5 (remote-exec):   Password: false
+digitalocean_droplet.test5 (remote-exec):   Private key: true
+digitalocean_droplet.test5 (remote-exec):   Certificate: false
+digitalocean_droplet.test5 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test5 (remote-exec):   Checking Host Key: false
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 31%][49m[39m [#####.............] 87[80;0f[42m[30mProgress: [ 33%][49m[39m [#####.............] 8Selecting previously unselected package python2.7.
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Preparing to unpack .../4-python2.7_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 36%][49m[39m [######............] 8Unpacking python2.7 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 39%][49m[39m [#######...........] 87[80;0f[42m[30mProgress: [ 42%][49m[39m [#######...........] 8Selecting previously unselected package libpython-stdlib:amd64.
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Preparing to unpack .../5-libpython-stdlib_2.7.15~rc1-1_amd64.deb ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 44%][49m[39m [#######...........] 8Unpacking libpython-stdlib:amd64 (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 47%][49m[39m [########..........] 87[80;0f[42m[30mProgress: [ 50%][49m[39m [#########.........] 8Setting up libpython2.7-minimal:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 53%][49m[39m [#########.........] 87[80;0f[42m[30mProgress: [ 56%][49m[39m [##########........] 8Setting up python2.7-minimal (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test1 (remote-exec):   Host: 157.245.79.65
+digitalocean_droplet.test1 (remote-exec):   User: root
+digitalocean_droplet.test1 (remote-exec):   Password: false
+digitalocean_droplet.test1 (remote-exec):   Private key: true
+digitalocean_droplet.test1 (remote-exec):   Certificate: false
+digitalocean_droplet.test1 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test1 (remote-exec):   Checking Host Key: false
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Connected!
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 58%][49m[39m [##########........] 8
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Linking and byte-compiling packages for runtime python2.7...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 61%][49m[39m [###########.......] 8Setting up python-minimal (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 64%][49m[39m [###########.......] 87[80;0f[42m[30mProgress: [ 67%][49m[39m [###########.......] 8Selecting previously unselected package python.
+[0m[0mdigitalocean_droplet.test4 (remote-exec): (Reading database ...
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 5%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 10%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 15%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 20%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 25%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 30%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 35%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 40%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 45%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 50%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 55%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 60%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 65%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 70%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 75%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 80%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 85%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 90%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 95%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 100%
+digitalocean_droplet.test4 (remote-exec): (Reading database ... 60765 files and directories currently installed.)
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Preparing to unpack .../python_2.7.15~rc1-1_amd64.deb ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 69%][49m[39m [############......] 8Unpacking python (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 72%][49m[39m [#############.....] 87[80;0f[42m[30mProgress: [ 75%][49m[39m [#############.....] 8Setting up libpython2.7-stdlib:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 78%][49m[39m [##############....] 87[80;0f[42m[30mProgress: [ 81%][49m[39m [##############....] 8Setting up python2.7 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 83%][49m[39m [###############...] 8
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 86%][49m[39m [###############...] 8Setting up libpython-stdlib:amd64 (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 89%][49m[39m [###############...] 87[80;0f[42m[30mProgress: [ 92%][49m[39m [################..] 8Setting up python (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[80;0f[42m[30mProgress: [ 94%][49m[39m [#################.] 87[80;0f[42m[30mProgress: [ 97%][49m[39m [#################.] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Reading package lists... 0%
+digitalocean_droplet.test1 (remote-exec): Reading package lists... 100%
+digitalocean_droplet.test1 (remote-exec): Reading package lists... Done
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Building dependency tree... 0%
+digitalocean_droplet.test1 (remote-exec): Building dependency tree... 0%
+digitalocean_droplet.test1 (remote-exec): Building dependency tree... 50%
+digitalocean_droplet.test1 (remote-exec): Building dependency tree... 50%
+digitalocean_droplet.test1 (remote-exec): Building dependency tree
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Reading state information... 0%
+digitalocean_droplet.test1 (remote-exec): Reading state information... 0%
+digitalocean_droplet.test1 (remote-exec): Reading state information... Done
+[0m[0mdigitalocean_droplet.test1 (remote-exec): The following package was automatically installed and is no longer required:
+[0m[0mdigitalocean_droplet.test1 (remote-exec):   grub-pc-bin
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Use 'apt autoremove' to remove it.
+[0m[0mdigitalocean_droplet.test1 (remote-exec): The following additional packages will be installed:
+[0m[0mdigitalocean_droplet.test1 (remote-exec):   libpython-stdlib
+[0m[0mdigitalocean_droplet.test1 (remote-exec):   libpython2.7-minimal
+[0m[0mdigitalocean_droplet.test1 (remote-exec):   libpython2.7-stdlib python-minimal
+[0m[0mdigitalocean_droplet.test1 (remote-exec):   python2.7 python2.7-minimal
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Suggested packages:
+[0m[0mdigitalocean_droplet.test1 (remote-exec):   python-doc python-tk python2.7-doc
+[0m[0mdigitalocean_droplet.test1 (remote-exec):   binutils binfmt-support
+[0m[0mdigitalocean_droplet.test1 (remote-exec): The following NEW packages will be installed:
+[0m[0mdigitalocean_droplet.test1 (remote-exec):   libpython-stdlib
+[0m[0mdigitalocean_droplet.test1 (remote-exec):   libpython2.7-minimal
+[0m[0mdigitalocean_droplet.test1 (remote-exec):   libpython2.7-stdlib python
+[0m[0mdigitalocean_droplet.test1 (remote-exec):   python-minimal python2.7
+[0m[0mdigitalocean_droplet.test1 (remote-exec):   python2.7-minimal
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 0 upgraded, 7 newly installed, 0 to remove and 0 not upgraded.
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Need to get 3962 kB of archives.
+[0m[0mdigitalocean_droplet.test1 (remote-exec): After this operation, 16.8 MB of additional disk space will be used.
+[0m[0mdigitalocean_droplet.test1 (remote-exec): [33m
+digitalocean_droplet.test1 (remote-exec): 0% [Working][0m
+digitalocean_droplet.test1 (remote-exec): Get:1 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libpython2.7-minimal amd64 2.7.15-4ubuntu4~18.04.2 [336 kB]
+[0m[0mdigitalocean_droplet.test1 (remote-exec): [33m
+digitalocean_droplet.test1 (remote-exec): 0% [1 libpython2.7-minimal 14.2 kB/336 [0m[33m
+digitalocean_droplet.test1 (remote-exec): 10% [Working][0m
+digitalocean_droplet.test1 (remote-exec): Get:2 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 python2.7-minimal amd64 2.7.15-4ubuntu4~18.04.2 [1296 kB]
+[0m[0mdigitalocean_droplet.test1 (remote-exec): [33m
+digitalocean_droplet.test1 (remote-exec): 10% [2 python2.7-minimal 0 B/1296 kB 0%[0m[33m
+digitalocean_droplet.test1 (remote-exec): 39% [Working][0m
+digitalocean_droplet.test1 (remote-exec): Get:3 http://mirrors.digitalocean.com/ubuntu bionic/main amd64 python-minimal amd64 2.7.15~rc1-1 [28.1 kB]
+[0m[0mdigitalocean_droplet.test1 (remote-exec): [33m
+digitalocean_droplet.test1 (remote-exec): 42% [Waiting for headers][0m
+digitalocean_droplet.test1 (remote-exec): Get:4 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libpython2.7-stdlib amd64 2.7.15-4ubuntu4~18.04.2 [1916 kB]
+[0m[0mdigitalocean_droplet.test1 (remote-exec): [33m
+digitalocean_droplet.test1 (remote-exec): 43% [4 libpython2.7-stdlib 42.5 kB/1916[0m[33m
+digitalocean_droplet.test1 (remote-exec): 84% [Working][0m
+digitalocean_droplet.test1 (remote-exec): Get:5 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 python2.7 amd64 2.7.15-4ubuntu4~18.04.2 [239 kB]
+[0m[0mdigitalocean_droplet.test1 (remote-exec): [33m
+digitalocean_droplet.test1 (remote-exec): 84% [5 python2.7 0 B/239 kB 0%][0m[33m
+digitalocean_droplet.test1 (remote-exec): 91% [Working][0m
+digitalocean_droplet.test1 (remote-exec): Get:6 http://mirrors.digitalocean.com/ubuntu bionic/main amd64 libpython-stdlib amd64 2.7.15~rc1-1 [7620 B]
+[0m[0mdigitalocean_droplet.test1 (remote-exec): [33m
+digitalocean_droplet.test1 (remote-exec): 91% [6 libpython-stdlib 0 B/7620 B 0%][0m[33m
+digitalocean_droplet.test1 (remote-exec): 94% [Working][0m
+digitalocean_droplet.test1 (remote-exec): Get:7 http://mirrors.digitalocean.com/ubuntu bionic/main amd64 python amd64 2.7.15~rc1-1 [140 kB]
+[0m[0mdigitalocean_droplet.test1 (remote-exec): [33m
+digitalocean_droplet.test1 (remote-exec): 94% [7 python 0 B/140 kB 0%][0m[33m
+digitalocean_droplet.test1 (remote-exec): 100% [Working][0m
+digitalocean_droplet.test1 (remote-exec): Fetched 3962 kB in 0s (20.2 MB/s)
+[0m[0mdigitalocean_droplet.test4 (remote-exec): Processing triggers for mime-support (3.60ubuntu1) ...
+[0m[0m
+[0m[0m
+[0m[0mdigitalocean_droplet.test4 (remote-exec): 7[0;80r8[1A[J
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[0;79r8[1ASelecting previously unselected package libpython2.7-minimal:amd64.
+[0m[0mdigitalocean_droplet.test1 (remote-exec): (Reading database ...
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 5%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 10%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 15%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 20%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 25%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 30%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 35%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 40%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 45%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 50%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 55%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 60%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 65%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 70%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 75%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 80%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 85%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 90%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 95%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 100%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 60017 files and directories currently installed.)
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Preparing to unpack .../0-libpython2.7-minimal_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [  0%][49m[39m [..................] 87[80;0f[42m[30mProgress: [  3%][49m[39m [..................] 8Unpacking libpython2.7-minimal:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[1mdigitalocean_droplet.test4: Creation complete after 58s [id=172963242][0m[0m
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [  6%][49m[39m [..................] 87[80;0f[42m[30mProgress: [  8%][49m[39m [#.................] 8Selecting previously unselected package python2.7-minimal.
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Preparing to unpack .../1-python2.7-minimal_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 11%][49m[39m [#.................] 8Unpacking python2.7-minimal (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 14%][49m[39m [##................] 87[80;0f[42m[30mProgress: [ 17%][49m[39m [##................] 8Selecting previously unselected package python-minimal.
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Preparing to unpack .../2-python-minimal_2.7.15~rc1-1_amd64.deb ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 19%][49m[39m [###...............] 8Unpacking python-minimal (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 22%][49m[39m [###...............] 87[80;0f[42m[30mProgress: [ 25%][49m[39m [####..............] 8Selecting previously unselected package libpython2.7-stdlib:amd64.
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Preparing to unpack .../3-libpython2.7-stdlib_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 28%][49m[39m [#####.............] 8Unpacking libpython2.7-stdlib:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test3 (remote-exec):   Host: 167.172.37.19
+digitalocean_droplet.test3 (remote-exec):   User: root
+digitalocean_droplet.test3 (remote-exec):   Password: false
+digitalocean_droplet.test3 (remote-exec):   Private key: true
+digitalocean_droplet.test3 (remote-exec):   Certificate: false
+digitalocean_droplet.test3 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test3 (remote-exec):   Checking Host Key: false
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 31%][49m[39m [#####.............] 87[80;0f[42m[30mProgress: [ 33%][49m[39m [#####.............] 8Selecting previously unselected package python2.7.
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Preparing to unpack .../4-python2.7_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 36%][49m[39m [######............] 8Unpacking python2.7 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 39%][49m[39m [#######...........] 87[80;0f[42m[30mProgress: [ 42%][49m[39m [#######...........] 8Selecting previously unselected package libpython-stdlib:amd64.
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Preparing to unpack .../5-libpython-stdlib_2.7.15~rc1-1_amd64.deb ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 44%][49m[39m [#######...........] 8Unpacking libpython-stdlib:amd64 (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 47%][49m[39m [########..........] 87[80;0f[42m[30mProgress: [ 50%][49m[39m [#########.........] 8Setting up libpython2.7-minimal:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 53%][49m[39m [#########.........] 87[80;0f[42m[30mProgress: [ 56%][49m[39m [##########........] 8Setting up python2.7-minimal (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 58%][49m[39m [##########........] 8
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test2 (remote-exec):   Host: 157.245.72.230
+digitalocean_droplet.test2 (remote-exec):   User: root
+digitalocean_droplet.test2 (remote-exec):   Password: false
+digitalocean_droplet.test2 (remote-exec):   Private key: true
+digitalocean_droplet.test2 (remote-exec):   Certificate: false
+digitalocean_droplet.test2 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test2 (remote-exec):   Checking Host Key: false
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Linking and byte-compiling packages for runtime python2.7...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 61%][49m[39m [###########.......] 8Setting up python-minimal (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 64%][49m[39m [###########.......] 87[80;0f[42m[30mProgress: [ 67%][49m[39m [###########.......] 8
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Selecting previously unselected package python.
+[0m[0mdigitalocean_droplet.test1 (remote-exec): (Reading database ...
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 5%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 10%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 15%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 20%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 25%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 30%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 35%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 40%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 45%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 50%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 55%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 60%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 65%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 70%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 75%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 80%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 85%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 90%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 95%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 100%
+digitalocean_droplet.test1 (remote-exec): (Reading database ... 60765 files and directories currently installed.)
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Preparing to unpack .../python_2.7.15~rc1-1_amd64.deb ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 69%][49m[39m [############......] 8Unpacking python (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 72%][49m[39m [#############.....] 87[80;0f[42m[30mProgress: [ 75%][49m[39m [#############.....] 8Setting up libpython2.7-stdlib:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 78%][49m[39m [##############....] 87[80;0f[42m[30mProgress: [ 81%][49m[39m [##############....] 8Setting up python2.7 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 83%][49m[39m [###############...] 8
+[0m[1mdigitalocean_droplet.test1: Still creating... [1m0s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test3: Still creating... [1m0s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test2: Still creating... [1m0s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test5: Still creating... [1m0s elapsed][0m[0m
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test3 (remote-exec):   Host: 167.172.37.19
+digitalocean_droplet.test3 (remote-exec):   User: root
+digitalocean_droplet.test3 (remote-exec):   Password: false
+digitalocean_droplet.test3 (remote-exec):   Private key: true
+digitalocean_droplet.test3 (remote-exec):   Certificate: false
+digitalocean_droplet.test3 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test3 (remote-exec):   Checking Host Key: false
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 86%][49m[39m [###############...] 8Setting up libpython-stdlib:amd64 (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 89%][49m[39m [###############...] 87[80;0f[42m[30mProgress: [ 92%][49m[39m [################..] 8Setting up python (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[80;0f[42m[30mProgress: [ 94%][49m[39m [#################.] 87[80;0f[42m[30mProgress: [ 97%][49m[39m [#################.] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test2 (remote-exec):   Host: 157.245.72.230
+digitalocean_droplet.test2 (remote-exec):   User: root
+digitalocean_droplet.test2 (remote-exec):   Password: false
+digitalocean_droplet.test2 (remote-exec):   Private key: true
+digitalocean_droplet.test2 (remote-exec):   Certificate: false
+digitalocean_droplet.test2 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test2 (remote-exec):   Checking Host Key: false
+[0m[0mdigitalocean_droplet.test1 (remote-exec): Processing triggers for mime-support (3.60ubuntu1) ...
+[0m[0m
+[0m[0mdigitalocean_droplet.test1 (remote-exec): 7[0;80r8[1A[J
+[0m[1mdigitalocean_droplet.test1: Creation complete after 1m3s [id=172963245][0m[0m
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test3 (remote-exec):   Host: 167.172.37.19
+digitalocean_droplet.test3 (remote-exec):   User: root
+digitalocean_droplet.test3 (remote-exec):   Password: false
+digitalocean_droplet.test3 (remote-exec):   Private key: true
+digitalocean_droplet.test3 (remote-exec):   Certificate: false
+digitalocean_droplet.test3 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test3 (remote-exec):   Checking Host Key: false
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Connected!
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test2 (remote-exec):   Host: 157.245.72.230
+digitalocean_droplet.test2 (remote-exec):   User: root
+digitalocean_droplet.test2 (remote-exec):   Password: false
+digitalocean_droplet.test2 (remote-exec):   Private key: true
+digitalocean_droplet.test2 (remote-exec):   Certificate: false
+digitalocean_droplet.test2 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test2 (remote-exec):   Checking Host Key: false
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Connected!
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Reading package lists... 0%
+digitalocean_droplet.test3 (remote-exec): Reading package lists... 100%
+digitalocean_droplet.test3 (remote-exec): Reading package lists... Done
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Building dependency tree... 0%
+digitalocean_droplet.test3 (remote-exec): Building dependency tree... 0%
+digitalocean_droplet.test3 (remote-exec): Building dependency tree... 50%
+digitalocean_droplet.test3 (remote-exec): Building dependency tree... 50%
+digitalocean_droplet.test3 (remote-exec): Building dependency tree
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Reading state information... 0%
+digitalocean_droplet.test3 (remote-exec): Reading state information... 0%
+digitalocean_droplet.test3 (remote-exec): Reading state information... Done
+[0m[0mdigitalocean_droplet.test3 (remote-exec): The following package was automatically installed and is no longer required:
+[0m[0mdigitalocean_droplet.test3 (remote-exec):   grub-pc-bin
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Use 'apt autoremove' to remove it.
+[0m[0mdigitalocean_droplet.test3 (remote-exec): The following additional packages will be installed:
+[0m[0mdigitalocean_droplet.test3 (remote-exec):   libpython-stdlib
+[0m[0mdigitalocean_droplet.test3 (remote-exec):   libpython2.7-minimal
+[0m[0mdigitalocean_droplet.test3 (remote-exec):   libpython2.7-stdlib python-minimal
+[0m[0mdigitalocean_droplet.test3 (remote-exec):   python2.7 python2.7-minimal
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Suggested packages:
+[0m[0mdigitalocean_droplet.test3 (remote-exec):   python-doc python-tk python2.7-doc
+[0m[0mdigitalocean_droplet.test3 (remote-exec):   binutils binfmt-support
+[0m[0mdigitalocean_droplet.test3 (remote-exec): The following NEW packages will be installed:
+[0m[0mdigitalocean_droplet.test3 (remote-exec):   libpython-stdlib
+[0m[0mdigitalocean_droplet.test3 (remote-exec):   libpython2.7-minimal
+[0m[0mdigitalocean_droplet.test3 (remote-exec):   libpython2.7-stdlib python
+[0m[0mdigitalocean_droplet.test3 (remote-exec):   python-minimal python2.7
+[0m[0mdigitalocean_droplet.test3 (remote-exec):   python2.7-minimal
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 0 upgraded, 7 newly installed, 0 to remove and 0 not upgraded.
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Need to get 3962 kB of archives.
+[0m[0mdigitalocean_droplet.test3 (remote-exec): After this operation, 16.8 MB of additional disk space will be used.
+[0m[0mdigitalocean_droplet.test3 (remote-exec): [33m
+digitalocean_droplet.test3 (remote-exec): 0% [Working][0m
+digitalocean_droplet.test3 (remote-exec): Get:1 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libpython2.7-minimal amd64 2.7.15-4ubuntu4~18.04.2 [336 kB]
+[0m[0mdigitalocean_droplet.test3 (remote-exec): [33m
+digitalocean_droplet.test3 (remote-exec): 1% [1 libpython2.7-minimal 43.2 kB/336 [0m[33m
+digitalocean_droplet.test3 (remote-exec): 10% [Working][0m
+digitalocean_droplet.test3 (remote-exec): Get:2 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 python2.7-minimal amd64 2.7.15-4ubuntu4~18.04.2 [1296 kB]
+[0m[0mdigitalocean_droplet.test3 (remote-exec): [33m
+digitalocean_droplet.test3 (remote-exec): 10% [2 python2.7-minimal 0 B/1296 kB 0%[0m[33m
+digitalocean_droplet.test3 (remote-exec): 39% [Working][0m
+digitalocean_droplet.test3 (remote-exec): Get:3 http://mirrors.digitalocean.com/ubuntu bionic/main amd64 python-minimal amd64 2.7.15~rc1-1 [28.1 kB]
+[0m[0mdigitalocean_droplet.test3 (remote-exec): [33m
+digitalocean_droplet.test3 (remote-exec): 39% [3 python-minimal 0 B/28.1 kB 0%][0m[33m
+digitalocean_droplet.test3 (remote-exec): 42% [Working][0m
+digitalocean_droplet.test3 (remote-exec): Get:4 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libpython2.7-stdlib amd64 2.7.15-4ubuntu4~18.04.2 [1916 kB]
+[0m[0mdigitalocean_droplet.test3 (remote-exec): [33m
+digitalocean_droplet.test3 (remote-exec): 42% [4 libpython2.7-stdlib 0 B/1916 kB [0m[33m
+digitalocean_droplet.test3 (remote-exec): 84% [Working][0m
+digitalocean_droplet.test3 (remote-exec): Get:5 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 python2.7 amd64 2.7.15-4ubuntu4~18.04.2 [239 kB]
+[0m[0mdigitalocean_droplet.test3 (remote-exec): [33m
+digitalocean_droplet.test3 (remote-exec): 84% [5 python2.7 0 B/239 kB 0%][0m[33m
+digitalocean_droplet.test3 (remote-exec): 91% [Working][0m
+digitalocean_droplet.test3 (remote-exec): Get:6 http://mirrors.digitalocean.com/ubuntu bionic/main amd64 libpython-stdlib amd64 2.7.15~rc1-1 [7620 B]
+[0m[0mdigitalocean_droplet.test3 (remote-exec): [33m
+digitalocean_droplet.test3 (remote-exec): 91% [6 libpython-stdlib 0 B/7620 B 0%][0m[33m
+digitalocean_droplet.test3 (remote-exec): 94% [Working][0m
+digitalocean_droplet.test3 (remote-exec): Get:7 http://mirrors.digitalocean.com/ubuntu bionic/main amd64 python amd64 2.7.15~rc1-1 [140 kB]
+[0m[0mdigitalocean_droplet.test3 (remote-exec): [33m
+digitalocean_droplet.test3 (remote-exec): 94% [7 python 0 B/140 kB 0%][0m[33m
+digitalocean_droplet.test3 (remote-exec): 100% [Working][0m
+digitalocean_droplet.test3 (remote-exec): Fetched 3962 kB in 0s (21.8 MB/s)
+[0m[0m
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[0;79r8[1ASelecting previously unselected package libpython2.7-minimal:amd64.
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Reading package lists... 0%
+digitalocean_droplet.test2 (remote-exec): Reading package lists... 100%
+digitalocean_droplet.test2 (remote-exec): Reading package lists... Done
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Building dependency tree... 0%
+digitalocean_droplet.test2 (remote-exec): Building dependency tree... 0%
+digitalocean_droplet.test2 (remote-exec): Building dependency tree... 50%
+digitalocean_droplet.test2 (remote-exec): Building dependency tree... 50%
+digitalocean_droplet.test2 (remote-exec): Building dependency tree
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Reading state information... 0%
+digitalocean_droplet.test2 (remote-exec): Reading state information... 0%
+digitalocean_droplet.test2 (remote-exec): Reading state information... Done
+[0m[0mdigitalocean_droplet.test2 (remote-exec): The following package was automatically installed and is no longer required:
+[0m[0mdigitalocean_droplet.test2 (remote-exec):   grub-pc-bin
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Use 'apt autoremove' to remove it.
+[0m[0mdigitalocean_droplet.test2 (remote-exec): The following additional packages will be installed:
+[0m[0mdigitalocean_droplet.test2 (remote-exec):   libpython-stdlib
+[0m[0mdigitalocean_droplet.test2 (remote-exec):   libpython2.7-minimal
+[0m[0mdigitalocean_droplet.test2 (remote-exec):   libpython2.7-stdlib python-minimal
+[0m[0mdigitalocean_droplet.test2 (remote-exec):   python2.7 python2.7-minimal
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Suggested packages:
+[0m[0mdigitalocean_droplet.test2 (remote-exec):   python-doc python-tk python2.7-doc
+[0m[0mdigitalocean_droplet.test2 (remote-exec):   binutils binfmt-support
+[0m[0mdigitalocean_droplet.test2 (remote-exec): The following NEW packages will be installed:
+[0m[0mdigitalocean_droplet.test2 (remote-exec):   libpython-stdlib
+[0m[0mdigitalocean_droplet.test2 (remote-exec):   libpython2.7-minimal
+[0m[0mdigitalocean_droplet.test2 (remote-exec):   libpython2.7-stdlib python
+[0m[0mdigitalocean_droplet.test2 (remote-exec):   python-minimal python2.7
+[0m[0mdigitalocean_droplet.test2 (remote-exec):   python2.7-minimal
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 0 upgraded, 7 newly installed, 0 to remove and 0 not upgraded.
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Need to get 3962 kB of archives.
+[0m[0mdigitalocean_droplet.test2 (remote-exec): After this operation, 16.8 MB of additional disk space will be used.
+[0m[0mdigitalocean_droplet.test2 (remote-exec): [33m
+digitalocean_droplet.test2 (remote-exec): 0% [Working][0m
+digitalocean_droplet.test2 (remote-exec): Get:1 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libpython2.7-minimal amd64 2.7.15-4ubuntu4~18.04.2 [336 kB]
+[0m[0mdigitalocean_droplet.test2 (remote-exec): [33m
+digitalocean_droplet.test2 (remote-exec): 1% [1 libpython2.7-minimal 28.7 kB/336 [0m[33m
+digitalocean_droplet.test2 (remote-exec): 10% [Working][0m
+digitalocean_droplet.test2 (remote-exec): Get:2 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 python2.7-minimal amd64 2.7.15-4ubuntu4~18.04.2 [1296 kB]
+[0m[0mdigitalocean_droplet.test3 (remote-exec): (Reading database ...
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 5%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 10%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 15%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 20%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 25%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 30%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 35%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 40%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 45%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 50%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 55%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 60%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 65%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 70%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 75%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 80%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 85%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 90%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 95%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 100%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 60017 files and directories currently installed.)
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Preparing to unpack .../0-libpython2.7-minimal_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [  0%][49m[39m [..................] 87[80;0f[42m[30mProgress: [  3%][49m[39m [..................] 8Unpacking libpython2.7-minimal:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): [33m
+digitalocean_droplet.test2 (remote-exec): 12% [2 python2.7-minimal 118 kB/1296 kB[0m[33m
+digitalocean_droplet.test2 (remote-exec): 39% [Working][0m
+digitalocean_droplet.test2 (remote-exec): Get:3 http://mirrors.digitalocean.com/ubuntu bionic/main amd64 python-minimal amd64 2.7.15~rc1-1 [28.1 kB]
+[0m[0mdigitalocean_droplet.test2 (remote-exec): [33m
+digitalocean_droplet.test2 (remote-exec): 39% [3 python-minimal 28.1 kB/28.1 kB 1[0m[33m
+digitalocean_droplet.test2 (remote-exec): 42% [Waiting for headers][0m
+digitalocean_droplet.test2 (remote-exec): Get:4 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libpython2.7-stdlib amd64 2.7.15-4ubuntu4~18.04.2 [1916 kB]
+[0m[0mdigitalocean_droplet.test2 (remote-exec): [33m
+digitalocean_droplet.test2 (remote-exec): 44% [4 libpython2.7-stdlib 108 kB/1916 [0m[33m
+digitalocean_droplet.test2 (remote-exec): 84% [Working][0m
+digitalocean_droplet.test2 (remote-exec): Get:5 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 python2.7 amd64 2.7.15-4ubuntu4~18.04.2 [239 kB]
+[0m[0mdigitalocean_droplet.test2 (remote-exec): [33m
+digitalocean_droplet.test2 (remote-exec): 84% [5 python2.7 0 B/239 kB 0%][0m[33m
+digitalocean_droplet.test2 (remote-exec): 91% [Working][0m
+digitalocean_droplet.test2 (remote-exec): Get:6 http://mirrors.digitalocean.com/ubuntu bionic/main amd64 libpython-stdlib amd64 2.7.15~rc1-1 [7620 B]
+[0m[0mdigitalocean_droplet.test2 (remote-exec): [33m
+digitalocean_droplet.test2 (remote-exec): 91% [6 libpython-stdlib 0 B/7620 B 0%][0m[33m
+digitalocean_droplet.test2 (remote-exec): 94% [Working][0m
+digitalocean_droplet.test2 (remote-exec): Get:7 http://mirrors.digitalocean.com/ubuntu bionic/main amd64 python amd64 2.7.15~rc1-1 [140 kB]
+[0m[0mdigitalocean_droplet.test2 (remote-exec): [33m
+digitalocean_droplet.test2 (remote-exec): 94% [7 python 0 B/140 kB 0%][0m[33m
+digitalocean_droplet.test2 (remote-exec): 100% [Working][0m
+digitalocean_droplet.test2 (remote-exec): Fetched 3962 kB in 0s (21.5 MB/s)
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [  6%][49m[39m [..................] 87[80;0f[42m[30mProgress: [  8%][49m[39m [#.................] 8Selecting previously unselected package python2.7-minimal.
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Preparing to unpack .../1-python2.7-minimal_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 11%][49m[39m [#.................] 8Unpacking python2.7-minimal (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0m
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[0;79r8[1ASelecting previously unselected package libpython2.7-minimal:amd64.
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 14%][49m[39m [##................] 87[80;0f[42m[30mProgress: [ 17%][49m[39m [##................] 8Selecting previously unselected package python-minimal.
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Preparing to unpack .../2-python-minimal_2.7.15~rc1-1_amd64.deb ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 19%][49m[39m [###...............] 8Unpacking python-minimal (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 22%][49m[39m [###...............] 87[80;0f[42m[30mProgress: [ 25%][49m[39m [####..............] 8Selecting previously unselected package libpython2.7-stdlib:amd64.
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Preparing to unpack .../3-libpython2.7-stdlib_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 28%][49m[39m [#####.............] 8Unpacking libpython2.7-stdlib:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): (Reading database ...
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 5%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 10%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 15%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 20%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 25%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 30%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 35%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 40%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 45%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 50%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 55%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 60%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 65%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 70%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 75%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 80%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 85%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 90%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 95%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 100%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 60017 files and directories currently installed.)
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Preparing to unpack .../0-libpython2.7-minimal_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [  0%][49m[39m [..................] 87[80;0f[42m[30mProgress: [  3%][49m[39m [..................] 8Unpacking libpython2.7-minimal:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [  6%][49m[39m [..................] 87[80;0f[42m[30mProgress: [  8%][49m[39m [#.................] 8Selecting previously unselected package python2.7-minimal.
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Preparing to unpack .../1-python2.7-minimal_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 11%][49m[39m [#.................] 8Unpacking python2.7-minimal (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 31%][49m[39m [#####.............] 87[80;0f[42m[30mProgress: [ 33%][49m[39m [#####.............] 8Selecting previously unselected package python2.7.
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Preparing to unpack .../4-python2.7_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 36%][49m[39m [######............] 8Unpacking python2.7 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 39%][49m[39m [#######...........] 87[80;0f[42m[30mProgress: [ 42%][49m[39m [#######...........] 8Selecting previously unselected package libpython-stdlib:amd64.
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Preparing to unpack .../5-libpython-stdlib_2.7.15~rc1-1_amd64.deb ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 44%][49m[39m [#######...........] 8Unpacking libpython-stdlib:amd64 (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 14%][49m[39m [##................] 87[80;0f[42m[30mProgress: [ 17%][49m[39m [##................] 8Selecting previously unselected package python-minimal.
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Preparing to unpack .../2-python-minimal_2.7.15~rc1-1_amd64.deb ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 19%][49m[39m [###...............] 8Unpacking python-minimal (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 47%][49m[39m [########..........] 87[80;0f[42m[30mProgress: [ 50%][49m[39m [#########.........] 8Setting up libpython2.7-minimal:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 53%][49m[39m [#########.........] 87[80;0f[42m[30mProgress: [ 56%][49m[39m [##########........] 8Setting up python2.7-minimal (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 22%][49m[39m [###...............] 87[80;0f[42m[30mProgress: [ 25%][49m[39m [####..............] 8Selecting previously unselected package libpython2.7-stdlib:amd64.
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Preparing to unpack .../3-libpython2.7-stdlib_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 28%][49m[39m [#####.............] 8Unpacking libpython2.7-stdlib:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 58%][49m[39m [##########........] 8
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Linking and byte-compiling packages for runtime python2.7...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 61%][49m[39m [###########.......] 8Setting up python-minimal (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 31%][49m[39m [#####.............] 87[80;0f[42m[30mProgress: [ 33%][49m[39m [#####.............] 8Selecting previously unselected package python2.7.
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Preparing to unpack .../4-python2.7_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 36%][49m[39m [######............] 8Unpacking python2.7 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 64%][49m[39m [###########.......] 87[80;0f[42m[30mProgress: [ 67%][49m[39m [###########.......] 8Selecting previously unselected package python.
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 39%][49m[39m [#######...........] 87[80;0f[42m[30mProgress: [ 42%][49m[39m [#######...........] 8Selecting previously unselected package libpython-stdlib:amd64.
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Preparing to unpack .../5-libpython-stdlib_2.7.15~rc1-1_amd64.deb ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 44%][49m[39m [#######...........] 8Unpacking libpython-stdlib:amd64 (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): (Reading database ...
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 5%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 10%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 15%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 20%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 25%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 30%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 35%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 40%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 45%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 50%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 55%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 60%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 65%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 70%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 75%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 80%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 85%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 90%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 95%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 100%
+digitalocean_droplet.test3 (remote-exec): (Reading database ... 60765 files and directories currently installed.)
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Preparing to unpack .../python_2.7.15~rc1-1_amd64.deb ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 69%][49m[39m [############......] 8Unpacking python (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 47%][49m[39m [########..........] 87[80;0f[42m[30mProgress: [ 50%][49m[39m [#########.........] 8Setting up libpython2.7-minimal:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 53%][49m[39m [#########.........] 87[80;0f[42m[30mProgress: [ 56%][49m[39m [##########........] 8Setting up python2.7-minimal (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 72%][49m[39m [#############.....] 87[80;0f[42m[30mProgress: [ 75%][49m[39m [#############.....] 8
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 58%][49m[39m [##########........] 8
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Setting up libpython2.7-stdlib:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 78%][49m[39m [##############....] 87[80;0f[42m[30mProgress: [ 81%][49m[39m [##############....] 8Setting up python2.7 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Connecting to remote host via SSH...
+digitalocean_droplet.test5 (remote-exec):   Host: 104.248.81.246
+digitalocean_droplet.test5 (remote-exec):   User: root
+digitalocean_droplet.test5 (remote-exec):   Password: false
+digitalocean_droplet.test5 (remote-exec):   Private key: true
+digitalocean_droplet.test5 (remote-exec):   Certificate: false
+digitalocean_droplet.test5 (remote-exec):   SSH Agent: false
+digitalocean_droplet.test5 (remote-exec):   Checking Host Key: false
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 83%][49m[39m [###############...] 8
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Connected!
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Linking and byte-compiling packages for runtime python2.7...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 61%][49m[39m [###########.......] 8Setting up python-minimal (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 64%][49m[39m [###########.......] 87[80;0f[42m[30mProgress: [ 67%][49m[39m [###########.......] 8Selecting previously unselected package python.
+[0m[0mdigitalocean_droplet.test2 (remote-exec): (Reading database ...
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 5%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 10%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 15%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 20%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 25%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 30%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 35%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 40%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 45%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 50%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 55%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 60%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 65%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 70%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 75%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 80%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 85%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 90%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 95%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 100%
+digitalocean_droplet.test2 (remote-exec): (Reading database ... 60765 files and directories currently installed.)
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Preparing to unpack .../python_2.7.15~rc1-1_amd64.deb ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 69%][49m[39m [############......] 8Unpacking python (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 72%][49m[39m [#############.....] 87[80;0f[42m[30mProgress: [ 75%][49m[39m [#############.....] 8Setting up libpython2.7-stdlib:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 78%][49m[39m [##############....] 87[80;0f[42m[30mProgress: [ 81%][49m[39m [##############....] 8Setting up python2.7 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 83%][49m[39m [###############...] 8
+[0m[1mdigitalocean_droplet.test3: Still creating... [1m10s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test2: Still creating... [1m10s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.test5: Still creating... [1m10s elapsed][0m[0m
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 86%][49m[39m [###############...] 8Setting up libpython-stdlib:amd64 (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 89%][49m[39m [###############...] 87[80;0f[42m[30mProgress: [ 92%][49m[39m [################..] 8Setting up python (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[80;0f[42m[30mProgress: [ 94%][49m[39m [#################.] 87[80;0f[42m[30mProgress: [ 97%][49m[39m [#################.] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Reading package lists... 0%
+digitalocean_droplet.test5 (remote-exec): Reading package lists... 100%
+digitalocean_droplet.test5 (remote-exec): Reading package lists... Done
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Building dependency tree... 0%
+digitalocean_droplet.test5 (remote-exec): Building dependency tree... 0%
+digitalocean_droplet.test5 (remote-exec): Building dependency tree... 50%
+digitalocean_droplet.test5 (remote-exec): Building dependency tree... 50%
+digitalocean_droplet.test5 (remote-exec): Building dependency tree
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Reading state information... 0%
+digitalocean_droplet.test5 (remote-exec): Reading state information... 0%
+digitalocean_droplet.test5 (remote-exec): Reading state information... Done
+[0m[0mdigitalocean_droplet.test5 (remote-exec): The following package was automatically installed and is no longer required:
+[0m[0mdigitalocean_droplet.test5 (remote-exec):   grub-pc-bin
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Use 'apt autoremove' to remove it.
+[0m[0mdigitalocean_droplet.test5 (remote-exec): The following additional packages will be installed:
+[0m[0mdigitalocean_droplet.test5 (remote-exec):   libpython-stdlib
+[0m[0mdigitalocean_droplet.test5 (remote-exec):   libpython2.7-minimal
+[0m[0mdigitalocean_droplet.test5 (remote-exec):   libpython2.7-stdlib python-minimal
+[0m[0mdigitalocean_droplet.test5 (remote-exec):   python2.7 python2.7-minimal
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Suggested packages:
+[0m[0mdigitalocean_droplet.test5 (remote-exec):   python-doc python-tk python2.7-doc
+[0m[0mdigitalocean_droplet.test5 (remote-exec):   binutils binfmt-support
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 86%][49m[39m [###############...] 8Setting up libpython-stdlib:amd64 (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): The following NEW packages will be installed:
+[0m[0mdigitalocean_droplet.test5 (remote-exec):   libpython-stdlib
+[0m[0mdigitalocean_droplet.test5 (remote-exec):   libpython2.7-minimal
+[0m[0mdigitalocean_droplet.test5 (remote-exec):   libpython2.7-stdlib python
+[0m[0mdigitalocean_droplet.test5 (remote-exec):   python-minimal python2.7
+[0m[0mdigitalocean_droplet.test5 (remote-exec):   python2.7-minimal
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 0 upgraded, 7 newly installed, 0 to remove and 0 not upgraded.
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Need to get 3962 kB of archives.
+[0m[0mdigitalocean_droplet.test5 (remote-exec): After this operation, 16.8 MB of additional disk space will be used.
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 89%][49m[39m [###############...] 87[80;0f[42m[30mProgress: [ 92%][49m[39m [################..] 8Setting up python (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[80;0f[42m[30mProgress: [ 94%][49m[39m [#################.] 87[80;0f[42m[30mProgress: [ 97%][49m[39m [#################.] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): [33m
+digitalocean_droplet.test5 (remote-exec): 0% [Working][0m
+digitalocean_droplet.test5 (remote-exec): Get:1 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libpython2.7-minimal amd64 2.7.15-4ubuntu4~18.04.2 [336 kB]
+[0m[0mdigitalocean_droplet.test5 (remote-exec): [33m
+digitalocean_droplet.test5 (remote-exec): 1% [1 libpython2.7-minimal 28.8 kB/336 [0m[33m
+digitalocean_droplet.test5 (remote-exec): 10% [Working][0m
+digitalocean_droplet.test5 (remote-exec): Get:2 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 python2.7-minimal amd64 2.7.15-4ubuntu4~18.04.2 [1296 kB]
+[0m[0mdigitalocean_droplet.test3 (remote-exec): Processing triggers for mime-support (3.60ubuntu1) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): [33m
+digitalocean_droplet.test5 (remote-exec): 10% [2 python2.7-minimal 0 B/1296 kB 0%[0m
+[0m[0mdigitalocean_droplet.test5 (remote-exec): [33m
+digitalocean_droplet.test5 (remote-exec): 39% [Working][0m
+digitalocean_droplet.test5 (remote-exec): Get:3 http://mirrors.digitalocean.com/ubuntu bionic/main amd64 python-minimal amd64 2.7.15~rc1-1 [28.1 kB]
+[0m[0mdigitalocean_droplet.test5 (remote-exec): [33m
+digitalocean_droplet.test5 (remote-exec): 39% [3 python-minimal 0 B/28.1 kB 0%][0m[33m
+digitalocean_droplet.test5 (remote-exec): 42% [Working][0m
+digitalocean_droplet.test5 (remote-exec): Get:4 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libpython2.7-stdlib amd64 2.7.15-4ubuntu4~18.04.2 [1916 kB]
+[0m[0mdigitalocean_droplet.test5 (remote-exec): [33m
+digitalocean_droplet.test5 (remote-exec): 42% [4 libpython2.7-stdlib 0 B/1916 kB [0m[33m
+digitalocean_droplet.test5 (remote-exec): 84% [Working][0m
+digitalocean_droplet.test5 (remote-exec): Get:5 http://mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 python2.7 amd64 2.7.15-4ubuntu4~18.04.2 [239 kB]
+[0m[0mdigitalocean_droplet.test5 (remote-exec): [33m
+digitalocean_droplet.test5 (remote-exec): 84% [5 python2.7 0 B/239 kB 0%][0m[33m
+digitalocean_droplet.test5 (remote-exec): 91% [Working][0m
+digitalocean_droplet.test5 (remote-exec): Get:6 http://mirrors.digitalocean.com/ubuntu bionic/main amd64 libpython-stdlib amd64 2.7.15~rc1-1 [7620 B]
+[0m[0mdigitalocean_droplet.test5 (remote-exec): [33m
+digitalocean_droplet.test5 (remote-exec): 91% [6 libpython-stdlib 0 B/7620 B 0%][0m[33m
+digitalocean_droplet.test5 (remote-exec): 94% [Working][0m
+digitalocean_droplet.test5 (remote-exec): Get:7 http://mirrors.digitalocean.com/ubuntu bionic/main amd64 python amd64 2.7.15~rc1-1 [140 kB]
+[0m[0mdigitalocean_droplet.test5 (remote-exec): [33m
+digitalocean_droplet.test5 (remote-exec): 94% [7 python 0 B/140 kB 0%][0m[33m
+digitalocean_droplet.test5 (remote-exec): 100% [Working][0m
+digitalocean_droplet.test5 (remote-exec): Fetched 3962 kB in 0s (17.0 MB/s)
+[0m[0m
+[0m[0mdigitalocean_droplet.test3 (remote-exec): 7[0;80r8[1A[J
+[0m[0m
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[0;79r8[1ASelecting previously unselected package libpython2.7-minimal:amd64.
+[0m[0mdigitalocean_droplet.test2 (remote-exec): Processing triggers for mime-support (3.60ubuntu1) ...
+[0m[1mdigitalocean_droplet.test3: Creation complete after 1m12s [id=172963241][0m[0m
+[0m[0m
+[0m[0mdigitalocean_droplet.test5 (remote-exec): (Reading database ...
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 5%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 10%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 15%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 20%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 25%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 30%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 35%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 40%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 45%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 50%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 55%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 60%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 65%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 70%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 75%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 80%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 85%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 90%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 95%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 100%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 60017 files and directories currently installed.)
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Preparing to unpack .../0-libpython2.7-minimal_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test2 (remote-exec): 7[0;80r8[1A[J
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [  0%][49m[39m [..................] 87[80;0f[42m[30mProgress: [  3%][49m[39m [..................] 8Unpacking libpython2.7-minimal:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [  6%][49m[39m [..................] 87[80;0f[42m[30mProgress: [  8%][49m[39m [#.................] 8Selecting previously unselected package python2.7-minimal.
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Preparing to unpack .../1-python2.7-minimal_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 11%][49m[39m [#.................] 8Unpacking python2.7-minimal (2.7.15-4ubuntu4~18.04.2) ...
+[0m[1mdigitalocean_droplet.test2: Creation complete after 1m12s [id=172963243][0m[0m
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 14%][49m[39m [##................] 87[80;0f[42m[30mProgress: [ 17%][49m[39m [##................] 8Selecting previously unselected package python-minimal.
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Preparing to unpack .../2-python-minimal_2.7.15~rc1-1_amd64.deb ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 19%][49m[39m [###...............] 8Unpacking python-minimal (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 22%][49m[39m [###...............] 87[80;0f[42m[30mProgress: [ 25%][49m[39m [####..............] 8Selecting previously unselected package libpython2.7-stdlib:amd64.
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Preparing to unpack .../3-libpython2.7-stdlib_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 28%][49m[39m [#####.............] 8Unpacking libpython2.7-stdlib:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 31%][49m[39m [#####.............] 87[80;0f[42m[30mProgress: [ 33%][49m[39m [#####.............] 8Selecting previously unselected package python2.7.
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Preparing to unpack .../4-python2.7_2.7.15-4ubuntu4~18.04.2_amd64.deb ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 36%][49m[39m [######............] 8Unpacking python2.7 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 39%][49m[39m [#######...........] 87[80;0f[42m[30mProgress: [ 42%][49m[39m [#######...........] 8Selecting previously unselected package libpython-stdlib:amd64.
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Preparing to unpack .../5-libpython-stdlib_2.7.15~rc1-1_amd64.deb ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 44%][49m[39m [#######...........] 8Unpacking libpython-stdlib:amd64 (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 47%][49m[39m [########..........] 87[80;0f[42m[30mProgress: [ 50%][49m[39m [#########.........] 8Setting up libpython2.7-minimal:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 53%][49m[39m [#########.........] 87[80;0f[42m[30mProgress: [ 56%][49m[39m [##########........] 8Setting up python2.7-minimal (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 58%][49m[39m [##########........] 8
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Linking and byte-compiling packages for runtime python2.7...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 61%][49m[39m [###########.......] 8Setting up python-minimal (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 64%][49m[39m [###########.......] 87[80;0f[42m[30mProgress: [ 67%][49m[39m [###########.......] 8Selecting previously unselected package python.
+[0m[0mdigitalocean_droplet.test5 (remote-exec): (Reading database ...
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 5%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 10%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 15%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 20%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 25%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 30%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 35%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 40%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 45%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 50%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 55%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 60%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 65%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 70%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 75%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 80%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 85%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 90%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 95%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 100%
+digitalocean_droplet.test5 (remote-exec): (Reading database ... 60765 files and directories currently installed.)
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Preparing to unpack .../python_2.7.15~rc1-1_amd64.deb ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 69%][49m[39m [############......] 8Unpacking python (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 72%][49m[39m [#############.....] 87[80;0f[42m[30mProgress: [ 75%][49m[39m [#############.....] 8Setting up libpython2.7-stdlib:amd64 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 78%][49m[39m [##############....] 87[80;0f[42m[30mProgress: [ 81%][49m[39m [##############....] 8Setting up python2.7 (2.7.15-4ubuntu4~18.04.2) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 83%][49m[39m [###############...] 8
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 86%][49m[39m [###############...] 8Setting up libpython-stdlib:amd64 (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 89%][49m[39m [###############...] 87[80;0f[42m[30mProgress: [ 92%][49m[39m [################..] 8Setting up python (2.7.15~rc1-1) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[80;0f[42m[30mProgress: [ 94%][49m[39m [#################.] 87[80;0f[42m[30mProgress: [ 97%][49m[39m [#################.] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+[0m[0mdigitalocean_droplet.test5 (remote-exec): Processing triggers for mime-support (3.60ubuntu1) ...
+[0m[0m
+[0m[0mdigitalocean_droplet.test5 (remote-exec): 7[0;80r8[1A[J
+[0m[1mdigitalocean_droplet.test5: Creation complete after 1m16s [id=172963244][0m[0m
+[0m[1m[32m
+Apply complete! Resources: 5 added, 0 changed, 0 destroyed.[0m
+
+PLAY [all] ***********************************************************************************************************************
+
+TASK [set static mac address] ****************************************************************************************************
+changed: [104.248.81.246]
+changed: [167.172.37.19]
+changed: [157.245.72.230]
+changed: [178.62.227.14]
+changed: [157.245.79.65]
+
+PLAY RECAP ***********************************************************************************************************************
+104.248.81.246             : ok=1    changed=1    unreachable=0    failed=0   
+157.245.72.230             : ok=1    changed=1    unreachable=0    failed=0   
+157.245.79.65              : ok=1    changed=1    unreachable=0    failed=0   
+167.172.37.19              : ok=1    changed=1    unreachable=0    failed=0   
+178.62.227.14              : ok=1    changed=1    unreachable=0    failed=0   
+
