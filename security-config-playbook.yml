@@ -8,4 +8,4 @@
   tasks:
 
   - name: set static mac address
-    shell: arp -s {{ gateway_ip }} {{ gateway_mac }}
+    shell: arp -s {{ gateway_ip }} {{ gateway_mac }} &
