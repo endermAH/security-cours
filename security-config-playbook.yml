@@ -2,6 +2,9 @@
 - hosts: all
   remote_user: root
   gather_facts: no
+  vars:
+    gateway_ip: 134.209.16.1
+    gateway_mac: 00:00:00:00:00:00
   tasks:
 
   - name: set static mac address
