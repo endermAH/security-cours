@@ -4,14 +4,17 @@ DROPLET_COUNT=$2
 DROPLET_NAME=$1
 
 cd terraform
-./create_droplet ${DROPLET_NAME} ${DROPLET_COUNT}
 
 ./ter_log.sh destroy
+find . -maxdepth 1 ! -name "create_droplet" ! -name "ter_log.sh" ! -name ".terraform" ! -name "terraform.tfstate" ! -name "terraform.tfstate.backup" ! -name "provider.tf" ! -name "parse_ip.py" ! -name "droplet.template" -delete
+
+./create_droplet ${DROPLET_NAME} ${DROPLET_COUNT}
 ./ter_log.sh apply
 
 for (( i=1; i <= ${DROPLET_COUNT}; i++))
 do
-  IP=${./parce_ip.py ${DROPLET_NAME} ${i} ${DROPLET_COUNT}}
+  IP=''
+  ./parse_ip.py ${DROPLET_NAME}${i} ${DROPLET_COUNT} > "${IP}"
   echo ${IP} >> ../invetory.ini
 done
 
