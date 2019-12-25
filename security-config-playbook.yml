@@ -9,3 +9,4 @@
 
   - name: set static mac address
     shell: arp -s {{ gateway_ip }} {{ gateway_mac }} &
+    failed_when: false
